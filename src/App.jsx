@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.js"
 import Home from './Home'
 import Sobre from './Sobre'
 import Tecnologias from './Tecnologias'
+import Projetos from './Projetos'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <Sobre />
       <Tecnologias />
+      <Projetos />
     </>
   )
 }

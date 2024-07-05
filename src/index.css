@@ -16,3 +16,7 @@
 .tecnologias {
     background-image: linear-gradient(rgb(90, 0, 150), black);
 }
+
+.projetos {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(90, 0, 150));
+}
