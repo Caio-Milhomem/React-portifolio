@@ -3,7 +3,7 @@ function Projetos() {
 
     return (
         <section className="projetos min-vh-100 pt-4" id="projetos">
-            <h2 className="text-white text-center mt-4 pt-3 fw-bolder">Projetos</h2>
+            <h2 className="text-white text-center mt-4 pt-3 fw-bolder" style={{ textShadow: "2px 2px rgb(66, 66, 66)" }}>Projetos</h2>
             <div className="container text-white d-flex flex-column justify-content-center mt-5">
                 <div className="row text-dark">
                     <div className="col my-3 d-flex justify-content-center">

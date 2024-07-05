@@ -1,5 +1,5 @@
 .home {
-    color: yellow;
+    color: rgb(231, 231, 231);
     background-image: linear-gradient(rgb(90, 0, 150), black);
     text-shadow: 3px 3px black;
 }
@@ -19,4 +19,8 @@
 
 .projetos {
     background-image: linear-gradient(rgb(0, 0, 0), rgb(90, 0, 150));
+}
+
+.contato {
+    background-image: linear-gradient(rgb(90, 0, 150), black);
 }
