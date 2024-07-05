@@ -12,3 +12,7 @@
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
     border: 2px solid black;
 }
+
+.tecnologias {
+    background-image: linear-gradient(rgb(90, 0, 150), black);
+}

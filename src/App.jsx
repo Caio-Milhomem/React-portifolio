@@ -5,6 +5,7 @@ import Header from './Header'
 import "bootstrap/dist/js/bootstrap.js"
 import Home from './Home'
 import Sobre from './Sobre'
+import Tecnologias from './Tecnologias'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Home />
       <Sobre />
+      <Tecnologias />
     </>
   )
 }
