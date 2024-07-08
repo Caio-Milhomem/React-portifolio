@@ -8,37 +8,37 @@ function Tecnologias() {
                 <div className="container d-flex flex-column justify-content-center">
                     <div className="row">
                         <div className="col text-center">
-                            <img className="img-fluid" src="public/img/bootstrapLogo.png" alt="bootStrap5Logo" />
+                            <img className="img-fluid" src="/img/bootstrapLogo.png" alt="bootStrap5Logo" />
                             <p>Bootstrap</p>
                         </div>
                         <div className="col text-center">
-                            <img className="img-fluid" src="public/img/htmlLogo.png" alt="html5Logo" />
+                            <img className="img-fluid" src="/img/htmlLogo.png" alt="html5Logo" />
                             <p>HTML</p>
                         </div>
                         <div className="col text-center">
-                            <img className="img-fluid" src="public/img/javascriptLogo.png" alt="javascriptLogo" />
+                            <img className="img-fluid" src="/img/javascriptLogo.png" alt="javascriptLogo" />
                             <p>JavaScript</p>
                         </div>
                         <div className="col text-center">
-                            <img className="img-fluid" src="public/img/cssLogo.png" alt="cssLogo" />
+                            <img className="img-fluid" src="/img/cssLogo.png" alt="cssLogo" />
                             <p>CSS</p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col text-center">
-                            <img className="img-fluid" src="public/img/c++Logo.png" alt="c++Logo" />
+                            <img className="img-fluid" src="/img/c++Logo.png" alt="c++Logo" />
                             <p>C++</p>
                         </div>
                         <div className="col text-center">
-                            <img className="img-fluid" src="public/img/gitLogo.png" alt="gitLogo" />
+                            <img className="img-fluid" src="/img/gitLogo.png" alt="gitLogo" />
                             <p>Git</p>
                         </div>
                         <div className="col text-center">
-                            <img className="img-fluid" src="public/img/javaLogo.png" alt="javaLogo" />
+                            <img className="img-fluid" src="/img/javaLogo.png" alt="javaLogo" />
                             <p>Java</p>
                         </div>
                         <div className="col text-center">
-                            <img className="img-fluid" src="public/img/postgresqlLogo.png" alt="postgresqlLogo" />
+                            <img className="img-fluid" src="/img/postgresqlLogo.png" alt="postgresqlLogo" />
                             <p>PostgreSQL</p>
                         </div>
                     </div>

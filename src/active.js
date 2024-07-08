@@ -1,26 +1,34 @@
-// Get all the section elements
-const sections = document.querySelectorAll('section');
-// Get all the nav links
-const navLinks = document.querySelectorAll('.nav-link');
 
-// Function to check which section is in view
-function updateActiveSection() {
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop - 300; // Adjust the offset as needed
-        const sectionHeight = section.clientHeight;
-        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-            // Remove the "active" class from all links
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-            });
-            // Get the corresponding nav link and add the "active" class
-            const correspondingLink = document.querySelector(`.nav-link[href="#${section.id}"]`);
-            correspondingLink.classList.add('active');
-        }
-    });
+export function initializeActiveSection() {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
 
+    function updateActiveSection() {
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 300; // Ajuste o offset conforme necessário
+            const sectionHeight = section.clientHeight;
+            if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                // Remove a classe "active" de todos os links
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                });
+                // Obtenha o link de navegação correspondente e adicione a classe "active"
+                const correspondingLink = document.querySelector(`.nav-link[href="#${section.id}"]`);
+                if (correspondingLink) {
+                    correspondingLink.classList.add('active');
+                }
+            }
+        });
+    }
 
+    // Adicione o ouvinte de evento de rolagem para atualizar a seção ativa na rolagem
+    window.addEventListener('scroll', updateActiveSection);
+
+    // Chame a função uma vez para definir a seção ativa inicial
+    updateActiveSection();
+
+    // Retorne uma função para remover o ouvinte de evento na limpeza
+    return () => {
+        window.removeEventListener('scroll', updateActiveSection);
+    };
 }
-
-// Add scroll event listener to update active section on scroll
-window.addEventListener('scroll', updateActiveSection);

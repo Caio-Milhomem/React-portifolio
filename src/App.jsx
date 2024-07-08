@@ -6,9 +6,19 @@ import Sobre from './Sobre'
 import Tecnologias from './Tecnologias'
 import Projetos from './Projetos'
 import Contato from './Contato'
-import './active'
+import { initializeActiveSection } from './active'
+import { useEffect } from 'react'
 
 function App() {
+
+  useEffect(() => {
+    // Chame a função de inicialização do script externo e obtenha a função de limpeza
+    const cleanup = initializeActiveSection();
+
+    // Use a função de limpeza no return para remover o ouvinte de evento
+    return cleanup;
+  }, []);
+
 
   return (
     <>
