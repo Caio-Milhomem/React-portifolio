@@ -24,3 +24,12 @@
 .contato {
     background-image: linear-gradient(rgb(90, 0, 150), black);
 }
+
+.tec-card {
+    background-color: transparent;
+    border: none;
+}
+
+.tec-img {
+    box-shadow: 5px 5px 5px rgb(100, 100, 100);
+}
