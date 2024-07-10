@@ -2,7 +2,7 @@
 function Header() {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-0 border border-secondary border-2 rounded-5 w-75 mx-auto">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-black fixed-top py-0 border border-secondary border-2 rounded-5 w-75 mx-auto">
             <div className="container justify-content-center  my-1">
                 <a className="navbar-brand fw-bolder" style={{ letterSpacing: "0.02em" }} href="#">Caio Milhomem</a>
                 <button className="navbar-toggler border-2 border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

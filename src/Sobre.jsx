@@ -23,8 +23,12 @@ function Sobre() {
                             <button type="button" className="btn btn-light mx-3 fw-bolder btn-baixar">Baixar CV</button>
                         </a>
                     </div>
-                    <div className="col-lg text-center">
-                        <img src="public/img/cartoonImage.png" className="d=block img-fluid" alt="cartoonImage" />
+                    <div className="col text-center ">
+                        <div className="card tec-card">
+                            <div className="card-body p-0">
+                                <img className="img-fluid" style={{ maxHeight: "30rem" }} src="/img/cartoonImage.png" alt="cartoonImage" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
