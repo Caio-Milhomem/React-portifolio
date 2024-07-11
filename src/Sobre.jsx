@@ -26,7 +26,7 @@ function Sobre() {
                     <div className="col text-center ">
                         <div className="card tec-card">
                             <div className="card-body p-0">
-                                <img className="img-fluid" style={{ maxHeight: "30rem" }} src="/img/cartoonImage.png" alt="cartoonImage" />
+                                <img className="img-fluid" style={{ maxHeight: "30rem" }} src="img/cartoonImage.png" alt="cartoonImage" />
                             </div>
                         </div>
                     </div>
