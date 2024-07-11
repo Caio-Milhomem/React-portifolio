@@ -11,8 +11,8 @@ function Projetos() {
                             <img src="img/projPortGif.gif" className="img-fluid rounded px-0 m-0" style={{ maxWidth: "462px" }} alt="..." />
                             <div className="col align-content-center">
                                 <div className="card-body d-inline-block p-0 m-0">
-                                    <h5 className="card-title pt-2 ">Portifólio</h5>
-                                    <p className="card-text my-2 ">Desenvolvimento de um website de rolagem para apresentar meu portfólio.</p>
+                                    <h5 className="card-title pt-2 ">Portfolio</h5>
+                                    <p className="card-text my-2 ">Desenvolvimento de um website de rolagem para apresentar meu portfolio.</p>
                                     <div className="row justify-content-start  " >
                                         <img className="img-fluid" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap" src="img/bootstrapLogo.png" alt="bootStrapLogo" style={{ maxInlineSize: "4rem" }} />
                                         <img className="img-fluid" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML" src="img/htmlLogo.png" alt="htmlLogo" style={{ maxInlineSize: "4rem" }} />
