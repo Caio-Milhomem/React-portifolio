@@ -2,11 +2,11 @@
 function Sobre() {
 
     return (
-        <section className="sobre " id="sobre">
+        <section className="sobre pt-3" id="sobre">
             <div className="container min-vh-100 text-white text-center d-flex flex-column justify-content-center">
                 <div className="row flex-lg-row  align-items-center">
                     <div className="col-lg" style={{ textAlign: "justify" }}>
-                        <h2 className="ms-3 mb-4 fw-bolder" style={{ textShadow: "2px 2px rgb(66, 66, 66)" }}>Sobre mim</h2>
+                        <h2 className="ms-3 mb-4 fw-bolder pt-5" style={{ textShadow: "3px 3px rgb(66, 66, 66)" }}>Sobre mim</h2>
                         <p className="mx-3" style={{ letterSpacing: "0.03em" }}>
                             Meu nome é Caio, e estou animado em compartilhar meu fascínio pela tecnologia com você.
                             Recentemente, concluí minha jornada acadêmica, graduando-me em Ciência da Computação pela PUC-GO, e estou
