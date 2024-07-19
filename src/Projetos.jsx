@@ -8,7 +8,7 @@ function Projetos() {
                 <div className="row d-flex justify-content-center text-dark px-4">
                     <div className="card mb-3">
                         <div className="row justify-content-center">
-                            <img src="img/projPortGif.gif" className="img-fluid rounded px-0 m-0" style={{ maxWidth: "462px" }} alt="..." />
+                            <img src="img/portGif.gif" className="img-fluid rounded px-0 m-0" style={{ maxWidth: "462px" }} alt="..." />
                             <div className="col align-content-center">
                                 <div className="card-body d-inline-block p-0 m-0">
                                     <h5 className="card-title pt-2 ">Portfólio</h5>
