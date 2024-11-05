@@ -9,7 +9,7 @@ function Tecnologias() {
                     <div className="col text-center ">
                         <div className="card tec-card">
                             <div className="card-body p-0">
-                                <img className="img-fluid" style={{ maxHeight: "10rem" }} src="img/bootstrapLogo.png" alt="bootStrap5Logo" />
+                                <img className="img-fluid" style={{ maxHeight: "10rem" }} src="img/bootstrap-logo.png" alt="bootStrap5Logo" />
                                 <h3 className="card-title text-white" style={{ textShadow: "2px 2px rgb(66, 66, 66)" }}>Bootstrap</h3>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ function Tecnologias() {
                     <div className="col text-center">
                         <div className="card tec-card">
                             <div className="card-body p-0">
-                                <img className="img-fluid" style={{ maxHeight: "10rem" }} src="img/postgresqlLogo.png" alt="postgresqlLogo" />
+                                <img className="img-fluid" style={{ maxHeight: "10rem" }} src="img/postgresql-logo.png" alt="postgresqlLogo" />
                                 <h3 className="card-title text-white" style={{ textShadow: "2px 2px rgb(66, 66, 66)" }}>PostgreSQL</h3>
                             </div>
                         </div>
